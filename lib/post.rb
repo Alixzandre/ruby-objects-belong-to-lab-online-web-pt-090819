@@ -7,11 +7,11 @@ class Author
 end
 
 class Post
-  attr_accessor :title, :author
+  attr_accessor :title, :name, :artist
   
-  def iniitialize(title,author)
+  def iniitialize(title,name)
     @title = title
-    @author = author
+    @name = name
   end
 end
   
